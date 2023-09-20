@@ -982,3 +982,16 @@ h6 {
 .back-to-top:hover {
   color: #fff;
 }
+
+
+.card-body {
+  overflow: auto;
+}
+
+
+
+@media only screen and (max-width: 500px){
+  .card-body .table-desc {
+    font-size: 12px;
+  }
+}
